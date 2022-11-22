@@ -1,0 +1,8 @@
+Realizar una consulta que permita conocer cuál es el producto que más stock tiene:
+SELECT inv_id,inv_nombre_producto,inv_stock,inv_fecha_creacion FROM tblinventario ORDER BY inv_stock DESC;
+
+
+Realizar una consulta que permita conocer cuál es el producto más vendido.
+
+SELECT ven_pro_id, MAX(ven_pro_cantidad_vendida) FROM tblventa_producto
+GROUP BY ven_pro_cantidad_vendida ORDER BY ven_pro_cantidad_vendida DESC;
