@@ -114,7 +114,7 @@
         <div class="modal-content">
             <div class="modal-header bg-warning text-white">
                 <!-- ENCABEZADO -->
-                <h5 class="modal-title" id="staticBackdropLabel">ACTUALIZAR DATOS DEL USUARIO</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">ACTUALIZAR DATOS DEL PRODUCTO</h5>
             </div>
             <div class="modal-body modal-body2">
                 <!-- INICIO FORMULARIO -->
@@ -170,7 +170,7 @@
         <div class="modal-content">
             <div class="modal-header bg-danger  text-white">
                 <!-- ENCABEZADO -->
-                <h5 class="modal-title" id="staticBackdropLabel">ELIMINAR USUARIO</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">ELIMINAR PRODUCTO</h5>
             </div>
             <div class="modal-body modal-body2 modal-body2">
                 <!-- INICIO FORMULARIO -->
