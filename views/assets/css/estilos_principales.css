@@ -1,0 +1,352 @@
+/* HOJA DE ESTILOS PROPIOS */
+
+/* Estilo para centrar contenido*/
+#centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado{
+    display: block;
+    margin-block-end: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#centrar_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+/* Estilo para centrar  texto */
+#centrar_tabla{
+    text-align: center;
+}
+
+/* Estilo para ubicar el boton de reporte de usuarios */
+#alinear_boton_reporte{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+/*Para alinear los botones y cuadro de busqueda de las datatables*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+
+/* Para ponerle negrita a las letras de los label */
+#negrita{
+    font-weight: bold;
+}
+
+/* Para ubicar el pie de pagina */
+
+/* Estilos de pie */
+
+/* Fin de estilos de Pie */
+
+/* Estilo de Botones */
+#boton_insertar>a{
+    width: 100%;
+    justify-content: space-around;
+    margin: 0.1em;
+}
+
+/* Estilos para darle a los Botones efecto de Pulso */
+
+/* La propiedad box-shadow permite proyectar una sombra difuminada desde el marco de casi cualquier elemento HTML. */
+
+/* Las animaciones CSS3 permiten animar la transición entre un estilo CSS y otro. 
+Las animaciones constan de dos componentes: un estilo que describe la animación CSS y un conjunto de fotogramas que indican su estado inicial y final, así como posibles puntos intermedios en la misma. 
+Se debe establecer un nombre de la funcion, la duracion de la animacion y como se ejecutará */
+
+/* El .5 quiere decir la opacidad que tendrá nuestra sombra */
+
+/* Boton de color azul / Animacion */
+.btn-primary-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-primary-animation 1.8s infinite;
+}
+
+/* Boton de color gris / Animacion */
+.btn-secondary-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-secondary-animation 1.8s infinite;
+}
+
+/* Boton de color verde / Animacion */
+.btn-success-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-success-animation 1.8s infinite;
+} 
+
+/* Boton de color rojo / Animacion */
+.btn-danger-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-danger-animation 1.8s infinite;
+}
+
+/* Boton de color amarillo / Animacion */
+.btn-warning-animation {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-warning-animation 1.8s infinite;
+}
+
+/* Boton de color cian / Animacion */
+.btn-info-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-info-animation 1.8s infinite;
+}
+
+/* Boton de color blanco / Animacion */
+.btn-light-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-light-animation 1.8s infinite;
+}
+
+/* Boton de color negro / Animacion */
+.btn-dark-animation{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: btn-dark-animation 1.8s infinite;
+}
+
+/* Botones / Estilos y Efectos*/
+
+/* La regla arroba @keyframes permite a los autores controlar los pasos intermedios en una secuencia de animación CSS mediante el establecimiento de keyframes (o puntos de trayectoria) a lo largo de la secuencia de animación que debe ser alcanzado por determinados puntos durante la animación. Esto le da un control más específico sobre los pasos intermedios de la secuencia de animación que se obtiene al dejar que el navegador maneje todo automáticamente. */
+
+/* Primero se escribe @keyframes seguido del nombre de la animacion que se declaró */
+
+/* La propiedad CSS transform te permite modificar el espacio de coordenadas del modelo de formato visual CSS. Usándola, los elementos pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos. */
+
+/* La propiedad box-shadow permite proyectar una sombra difuminada desde el marco de casi cualquier elemento HTML. */
+
+/* Boton de color azul / Estilo y Efecto */
+@keyframes btn-primary-animation {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #0d6efd;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+}
+
+/* Boton de color gris / Estilo y Efecto */
+@keyframes btn-secondary-animation {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #6c757d;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+}
+
+/* Boton de color verde / Estilo y Efecto */
+@keyframes btn-success-animation {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #28a745;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+}
+
+/* Boton de color rojo / Estilo y Efecto */
+@keyframes btn-danger-animation {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #dc3545;;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    
+}
+
+/* Boton de color amarillo / Estilo y Efecto */
+@keyframes btn-warning-animation {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #ffc107;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    
+}
+
+/* Boton de color cian / Estilo y Efecto */
+@keyframes btn-info-animation {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #0dcaf0;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+}
+
+/* Boton de color blanco / Estilo y Efecto */
+@keyframes btn-light-animation{
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #f8f9fa;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+}
+
+/* Boton de color negro / Estilo y Efecto */
+@keyframes btn-dark-animation{
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 #343a40;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 6px rgba(256, 256, 256, 0);
+    }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+    font-weight: 600;
+    justify-content: center;
+	background: #0d6efd;
+    color: white;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #525151;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
